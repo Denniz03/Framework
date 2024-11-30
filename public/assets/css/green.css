@@ -1,0 +1,27 @@
+:root {
+    
+    /* Primary color */
+    --color-primary-h: 153;
+    --color-primary-s: 53%;
+    --color-primary-l: 53%;
+    --color-primary: hsl(var(--color-primary-h), var(--color-primary-s), var(--color-primary-l));
+    
+    /* Colors for use with scheme-main */
+    --color-on-primary: var(--color-light);  
+    --color-primary-hover: var(--hover-dark);
+
+    --header-background: var(--color-white);
+    --header-text: var(--color-dark);
+
+    --navbar-background: var(--color-primary);
+    --navbar-text: var(--color-white);
+    --navbar-hover: var(--hover-dark);
+    --navbar-active-background: var(--color-primary);
+    --navbar-active-text: var(--color-primary-dark-50);
+    --navbar-active-border: var(--color-primary-dark-50);
+
+    --hover-color: var(--hover-light);
+    --body-color: var(--color-white);
+    --text-color: var(--color-dark);
+
+}
